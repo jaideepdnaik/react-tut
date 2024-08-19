@@ -4,9 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function MyButton() {
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <MyButton />
     <App />
   </React.StrictMode>
 );
